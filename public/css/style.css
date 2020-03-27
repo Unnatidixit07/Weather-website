@@ -1,0 +1,34 @@
+body{
+    color:grey;
+    font-family:arial;
+    max-width:700px;
+    margin:0 auto;
+    padding:10px 200px;
+
+    display:flex;
+    flex-direction: column;
+    align-content:center;
+}
+flex-container{
+    flex-grow:1;
+}
+
+div.absolute {
+    position: absolute;
+    bottom: 10px;
+    
+    
+    color:grey;
+}
+header{
+    margin-top:10px;
+}
+header a {
+    text-decoration:none;
+    color:grey;
+    font-size:15px;
+    padding-left:5px;
+}
+img{
+    margin-top:10px;
+}
